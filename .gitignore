@@ -1,6 +1,25 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+*.egg-info/
+.build/
+dist/
+.eggs/
+
+# venvs
+.venv/
+venv/
+.env/
+.env.*/
+.envrc
+.conda/
+.ipynb_checkpoints/
+
+# OS/editor
 .DS_Store
 *.swp
-.env/
-virtualenv/
+*.swo
+.idea/
+.vscode/
+*.code-workspace
