@@ -7,13 +7,13 @@
         ]
       },
       "locked": {
-        "lastModified": 1753726247,
-        "narHash": "sha256-yiJfs6f1JCmoD5g/PViuiaTbyj894GNE8ojmnl8W/lk=",
-        "path": "/home/quinn/CODE_PROJECTS/dev-flakes/python",
+        "lastModified": 1760129410,
+        "narHash": "sha256-7wofi+NRvTIMOkPTJz2IeDMT3GTSyUNDFcCsqksVvfA=",
+        "path": "/home/quinn/CODE_PROJECTS/dev-flakes/python-3.12",
         "type": "path"
       },
       "original": {
-        "path": "/home/quinn/CODE_PROJECTS/dev-flakes/python",
+        "path": "/home/quinn/CODE_PROJECTS/dev-flakes/python-3.12",
         "type": "path"
       }
     },

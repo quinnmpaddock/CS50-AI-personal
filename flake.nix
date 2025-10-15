@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     base-python-env = {
-      url = "path:/home/quinn/CODE_PROJECTS/dev-flakes/python";
+      url = "path:/home/quinn/CODE_PROJECTS/dev-flakes/python-3.12";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
