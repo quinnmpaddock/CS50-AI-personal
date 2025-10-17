@@ -25,12 +25,13 @@
       devShells = forEachSupportedSystem ({ pkgs }:
         let
           # Define our Python version for consistency.
-          python = pkgs.python313;
+          python = pkgs.python312;
 
           # Create a single, self-contained Python environment with our packages.
           pythonWithPackages = python.withPackages (ps: with ps; [
             # Add packages here if using Nix-managed Python deps
             # e.g., ps.torch, ps.sentence-transformers (if available)
+            pygame
           ]);
         in
         {
