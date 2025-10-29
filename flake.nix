@@ -32,6 +32,7 @@
             # Add packages here if using Nix-managed Python deps
             # e.g., ps.torch, ps.sentence-transformers (if available)
             pygame
+            numpy
           ]);
         in
         {
@@ -48,6 +49,7 @@
               gcc.cc.lib   # ✅ Provides libstdc++.so.6
               glibc        # ✅ Required for dynamic linking
               git-filter-repo
+              zlib
             ];
 
             # ✅ Explicitly expose C++ runtime libraries
